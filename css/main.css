@@ -1,0 +1,109 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+  background-image: url("/img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first-div{
+    width: 1400px;
+    height: 900px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    position: absolute;
+    left: calc(50% - 700px);
+    top: 7%;
+}
+header{
+    width: 1400px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    margin: 100px;
+    display: flex;
+    border-radius: 20px;
+}
+/*barra de navegación*/
+nav{
+    width: 1400px;
+    height: 3em;
+    background-color:  rgb(99, 133, 75);
+}
+.barra{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.option{
+    width: 10%;
+    background:rgb(99, 133, 75);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.option a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.option:hover{
+    background: aliceblue;
+    transition: 1s;
+}
+/* Fin de barra de navegación */
+
+/* Incio de section */
+
+.banner{
+    width: 1400px;
+    height: 600px;
+    margin-top: 40px;
+    display: flex;
+    padding: 15px;
+}
+.img-1{
+    width: 500px;
+    height: 390px;
+    border: 3px solid #931414;
+    border-radius: 10px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.box-p{
+    display: flex;
+    flex-wrap: wrap;
+}
+.parrafo{
+    color: black;
+    font-size: 25px;
+}
+/* Fin de section */
+
+footer{
+    width: 1400px;
+    height: 4em;
+    background-color: rgb(99, 133, 75);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: aliceblue;
+}
