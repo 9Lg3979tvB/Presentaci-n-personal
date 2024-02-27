@@ -58,12 +58,10 @@ nav{
     margin: 25px;
 }
 .option a{
+    background: rgb(2, 70, 47);
     color: aliceblue;
     text-decoration: none;
-}
-.option:hover{
-    background: aliceblue;
-    transition: 1s;
+    box-shadow: 0 5px 5px 3px aliceblue;
 }
 /* Fin de barra de navegación */
 
