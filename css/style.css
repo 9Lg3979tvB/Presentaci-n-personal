@@ -1,0 +1,196 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size: 20px;
+color: aliceblue;
+}
+body{
+  background-image: url("/image/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150vh;
+}
+
+.first_content{
+    width: 1400px;
+    height: 1100px;
+    background: linear-gradient(#0F50A6, #F24C3D);
+    border-radius: 15px;
+    position: absolute;
+    left: calc(50% - 700px);
+    top: 7%;
+}
+header{
+    width: 1400px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    margin: 100px;
+    display: flex;
+    border-radius: 20px;
+}
+/*barra de navegación*/
+nav{
+    width: 1400px;
+    height: 3em;
+    background-color: rgb(63, 67, 81);
+}
+.barra{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+}
+.option{
+    width: 10%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.option a{
+    background: rgb(2, 70, 47);
+    color: aliceblue;
+    text-decoration: none;
+    box-shadow: 5px 5px 10px rgb(121, 51, 51);
+}
+/* Fin de barra de navegación */
+
+/* Incio de section */
+
+.banner{
+    width: 1400px;
+    height: 600px;
+    margin-top: 40px;
+    display: flex;
+    padding: 15px;
+}
+.img-1{
+    width: 500px;
+    height: 390px;
+    border: 3px solid #931414;
+    border-radius: 10px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.box-p{
+    display: flex;
+    flex-wrap: wrap;
+}
+.parrafo{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+/* Fin de section */
+
+footer{
+    width: 1400px;
+    height: 5em;
+    margin-top: 120px;
+    border-radius: 15px;
+    background-color: #0F50A6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: aliceblue;
+}
+/* Formulario*/
+.second_content{
+    width: 1400px;
+    height: 600px;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+.form{
+    width: 600px;
+    height: 400px;
+    background: #506266a2;
+    border-radius: 15px;
+}
+.form h3{
+    margin-top: 30px;
+    text-align: center;
+}
+.control{
+    width: 100%;
+    background: aliceblue;
+    padding: 5px;
+    border-radius: 20px;
+    border: 3px solid #2a55b1c9;
+}
+.form p{
+    height: 30px;
+    text-align: center;
+
+}
+
+.btn-enviar{
+    width: 600px;
+    margin-top: 75px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.btn-enviar:hover{
+    background: linear-gradient( #a3b1b1, #3d4145a7 );
+}
+
+/*Finaliza */
+
+/* Tabla */
+
+.third_content{
+    width: 1400px;
+    height: 600px;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    border: 1px solid rgb(255, 255, 255, 0.2);
+}
+
+.table{ 
+    color: #fff;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+thead{
+    background: rgb(243, 140, 210, 0.4);
+}
+
+th{
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+td{
+    padding: 15px;
+    border-bottom: solid 1px rgb(255, 255, 255, 0.2);
+}
+
+tbody tr:hover{
+    background:  rgb(255, 255, 255, 0.3);
+}
+
+/* Finaliza */
